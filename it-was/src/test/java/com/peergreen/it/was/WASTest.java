@@ -17,10 +17,11 @@ import com.peergreen.tests.jaxrs.javaee.jaxrs20.suite.JAXRS20TestSuite;
 import com.peergreen.tests.jpa.javaee.jpa20.suite.JPA20TestSuite;
 import com.peergreen.tests.legacy.felix.webconsole.FelixWebConsoleTest;
 import com.peergreen.tests.legacy.jenkins.JenkinsTest;
+import com.peergreen.tests.legacy.nexus.NexusTest;
 
 
 @RunWith(Suite.class)
-@SuiteClasses({/* fix injection JTA11TestSuite.class, */JPA20TestSuite.class, JAXRS20TestSuite.class, JenkinsTest.class, FelixWebConsoleTest.class})
+@SuiteClasses({/* fix injection JTA11TestSuite.class, */JPA20TestSuite.class, JAXRS20TestSuite.class, JenkinsTest.class, NexusTest.class, FelixWebConsoleTest.class})
 public class WASTest {
 
 }

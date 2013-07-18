@@ -138,6 +138,12 @@
       <classifier>tests</classifier>
       <version>${peergreen.tests.version}</version>
     </dependency>
+    <dependency>
+      <groupId>com.peergreen.tests.legacy-apps</groupId>
+      <artifactId>legacy-nexus</artifactId>
+      <classifier>tests</classifier>
+      <version>${peergreen.tests.version}</version>
+    </dependency>
   </dependencies>
 
   <modules>

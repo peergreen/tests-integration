@@ -15,10 +15,11 @@ import org.junit.runners.Suite.SuiteClasses;
 
 import com.peergreen.tests.legacy.felix.webconsole.FelixWebConsoleTest;
 import com.peergreen.tests.legacy.jenkins.JenkinsTest;
+import com.peergreen.tests.legacy.nexus.NexusTest;
 
 
 @RunWith(Suite.class)
-@SuiteClasses({FelixWebConsoleTest.class, JenkinsTest.class})
+@SuiteClasses({NexusTest.class, FelixWebConsoleTest.class, JenkinsTest.class})
 public class TomcatTest {
 
 }
