@@ -21,7 +21,7 @@ import com.peergreen.tests.legacy.nexus.NexusTest;
 
 
 @RunWith(Suite.class)
-@SuiteClasses({/* fix injection JTA11TestSuite.class, */JPA20TestSuite.class, JAXRS20TestSuite.class, JenkinsTest.class, NexusTest.class, FelixWebConsoleTest.class})
+@SuiteClasses({NexusTest.class, /* fix injection JTA11TestSuite.class, */JPA20TestSuite.class, JAXRS20TestSuite.class, FelixWebConsoleTest.class, JenkinsTest.class})
 public class WASTest {
 
 }
