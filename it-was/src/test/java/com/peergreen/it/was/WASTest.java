@@ -15,13 +15,14 @@ import org.junit.runners.Suite.SuiteClasses;
 
 import com.peergreen.tests.jaxrs.javaee.jaxrs20.suite.JAXRS20TestSuite;
 import com.peergreen.tests.jpa.javaee.jpa20.suite.JPA20TestSuite;
+import com.peergreen.tests.jta.javaee.jta11.suite.JTA11TestSuite;
 import com.peergreen.tests.legacy.felix.webconsole.FelixWebConsoleTest;
 import com.peergreen.tests.legacy.jenkins.JenkinsTest;
 import com.peergreen.tests.legacy.nexus.NexusTest;
 
 
 @RunWith(Suite.class)
-@SuiteClasses({NexusTest.class, /* fix injection JTA11TestSuite.class, */JPA20TestSuite.class, JAXRS20TestSuite.class, FelixWebConsoleTest.class, JenkinsTest.class})
+@SuiteClasses({NexusTest.class, JTA11TestSuite.class, JPA20TestSuite.class, JAXRS20TestSuite.class, FelixWebConsoleTest.class, JenkinsTest.class})
 public class WASTest {
 
 }
