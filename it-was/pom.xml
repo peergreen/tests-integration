@@ -31,7 +31,7 @@
     <dependency>
       <groupId>com.peergreen.server</groupId>
       <artifactId>peergreen-server-was</artifactId>
-      <version>1.0.0-M3-SNAPSHOT</version>
+      <version>1.0.0-M4-SNAPSHOT</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
